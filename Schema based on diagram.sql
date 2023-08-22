@@ -29,23 +29,26 @@ CREATE TABLE "invoices" (
   "total_amount" decimal,
   "generated_at" timestamp,
   "payed_at" timestamp,
-  "medical_history_id" int,
+  "medical_history_id" int REFERENCES "medical_histories"(id),
   PRIMARY KEY ("id")
 );
+
+CREATE INDEX ON "invoices" (medical_history_id);
 
 CREATE TABLE "invoice_items" (
   "id" int,
   "unit_price" decimal,
   "quantity" int,
   "total_price" decimal,
-  "invoice_id" int REFERENCES "invoices"("id"), -- Specify the referenced column
-  "treatment_id" int,
-  PRIMARY KEY ("id"),
-  CONSTRAINT "FK_invoice_items_invoice_id" FOREIGN KEY ("invoice_id") REFERENCES "invoices"("id") -- Corrected constraint name and syntax
+  "invoice_id" int REFERENCES "invoices"(id),
+  "treatment_id" int REFERENCES "treatments"(id),
+  PRIMARY KEY (id),
+  CONSTRAINT "FK_invoice_items_invoice_id" FOREIGN KEY (invoice_id) REFERENCES "invoices"(id)
 );
 
 
 CREATE INDEX ON "invoice_items" (invoice_id);
+CREATE INDEX ON "treatments" (id);
 
 CREATE TABLE "diagnosis" (
     treatment_id int REFERENCES treatments NOT NULL,
