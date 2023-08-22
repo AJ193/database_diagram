@@ -97,7 +97,7 @@ Clone this repository to your desired folder:
 
 
 ```sh
-  https://github.com/AJ193/Vet_clinic/
+  [https://github.com/AJ193/Vet_clinic](https://github.com/AJ193/database_diagram.git)/
 ```
 
 
@@ -107,7 +107,7 @@ Install this project with:
 
 
 ```sh
-  cd vet-clinic-database
+  cd vet_clinic_database_based_diagram
 ```
 
 <!-- AUTHORS -->
