@@ -3,7 +3,7 @@
 <div align="center">
 
 
-  <h3><b>Vet_Clinic</b></h3>
+  <h3><b>Vet_Clinic Database based on Diagram</b></h3>
 
 </div>
 
@@ -34,7 +34,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Vet_Clinic] <a name="about-project"></a>
+# 📖 [Vet_Clinic Database based on Diagram] <a name="about-project"></a>
 A Vet Clinic Database built using PostgreSQL is a comprehensive system that stores and manages essential information related to veterinary clinics. It includes features such as patient records, medical histories, appointments, treatments, and billing information, facilitating efficient management of veterinary services. With the power of PostgreSQL, the database provides a reliable and scalable solution for organizing and retrieving critical data in a veterinary clinic setting.
 ## 🛠 Built With <a name="built-with"></a>
 . PostgreSQL
@@ -68,8 +68,8 @@ A Vet Clinic Database built using PostgreSQL is a comprehensive system that stor
 
 - **Create tables in SQL**
 - **Insert and query data in SQL.**
-- **Use database transactions.**
-- **Modify and delete data in SQL.**
+- **Made database based on diagram**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -120,7 +120,13 @@ Install this project with:
 - Twitter: [@AJ](https://twitter.com/GhulamShabbir59)
 - LinkedIn: [@AJ](https://www.linkedin.com/in/ghulam-shabbir-225264247/)
 
+👤 **Muhammad Amran Khan (Mike)**
 
+- GitHub: [@Mike111222](https://github.com/Mike111222)
+- Twitter: [@iMike111222](https://twitter.com/iMike111222)
+- LinkedIn: [@iMikeKhan](https://www.linkedin.com/in/iMikeKhan/)
+
+ 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
